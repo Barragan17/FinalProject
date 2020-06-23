@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.finalproject.Dashboard">
+
+<!-- TODO: Update blank fragment layout -->
+<SearchView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_edit_background"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="429dp"
+            android:background="#313030">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="146dp"
+                android:layout_height="154dp"
+                android:layout_marginBottom="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/estadio" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="154dp"
+                android:layout_marginStart="97dp"
+                android:layout_marginLeft="97dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:layout_toRightOf="@id/img_item_photo"
+                android:src="@drawable/gym" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/badminton" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="154dp"
+                android:layout_marginStart="97dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="97dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:layout_toRightOf="@id/img_item_photo"
+                android:src="@drawable/basket" />>
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
